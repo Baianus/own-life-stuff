@@ -1862,3 +1862,1467 @@ Level flags = 2
 Total triangle count: 788
 Writing c:\users\brian\desktop\cyber life\content\half-life 2\ol\mapsrc\homes.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 15
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 46
+Reduced 23 texdatas to 17 (604 bytes to 440)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 31 visible clusters (0.00%)
+Total clusters visible: 7275
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 273030, max 214
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2953, 2366, 1881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(430, 297, 206)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                46/12288        3312/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8463/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       501/65536       14028/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 16
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8454/393216   ( 2.1%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 17
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8460/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 18
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8460/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 19
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8757/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 20
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 31 visible clusters (0.00%)
+Total clusters visible: 7275
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8751/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 21
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8757/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       501/65536       14028/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 22
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8753/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 23
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2970, 2378, 1890)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(433, 297, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(64, 39, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8748/393216   ( 2.2%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient       500/65536       14000/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 24
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6775, 2970, 1889)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(842, 329, 200)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 42, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(19, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          3/16384         264/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8098/393216   ( 2.1%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient      1052/65536       29456/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Own-Life\materials
+Loading C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.vmf
+Map revision 25
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\own-life\gameinfo.txt
+Patching WVT material: maps/homes/nature/blenddirtgrass006a_wvt_patch
+Patching WVT material: maps/homes/nature/short_red_grass_wvt_patch
+Patching WVT material: maps/homes/nature/blendgravelconc01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 32 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28428 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 44
+Reduced 23 texdatas to 17 (600 bytes to 436)
+Writing C:\Jogos\XBLAH\content\Half-Life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+reading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.prt
+ 104 portalclusters
+ 395 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 7278
+Average clusters visible: 69
+Building PAS...
+Average clusters audible: 104
+visdatasize:3553  compressed from 3328
+writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+Loaded alpha texture materials\models\props_forest\fern01.vtf
+280 faces
+187780 square feet [27040370.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+280 patches before subdivision
+6776 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 252905, max 214
+transfer lists:   1.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6775, 2970, 1889)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(842, 329, 200)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(119, 42, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(19, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 73/32768         876/393216   ( 0.2%) 
+brushsides             484/65536        3872/524288   ( 0.7%) 
+planes                 312/65536        6240/1310720  ( 0.5%) 
+vertexes               486/65536        5832/786432   ( 0.7%) 
+nodes                  221/65536        7072/2097152  ( 0.3%) 
+texinfos                44/12288        3168/884736   ( 0.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  280/65536       15680/3670016  ( 0.4%) 
+hdr faces              280/65536       15680/3670016  ( 0.4%) 
+origfaces              150/65536        8400/3670016  ( 0.2%) 
+leaves                 223/65536        7136/2097152  ( 0.3%) 
+leaffaces              365/65536         730/131072   ( 0.6%) 
+leafbrushes            241/65536         482/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1946/512000       7784/2048000  ( 0.4%) 
+edges                 1184/256000       4736/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          3/16384         264/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             32/131072        320/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           597/131072       1194/262144   ( 0.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      173560/0        ( 0.0%) 
+visdata               [variable]        3553/16777216 ( 0.0%) 
+entdata               [variable]        8090/393216   ( 2.1%) 
+LDR ambient table      223/65536         892/262144   ( 0.3%) 
+HDR ambient table      223/65536         892/262144   ( 0.3%) 
+LDR leaf ambient       223/65536        6244/1835008  ( 0.3%) 
+HDR leaf ambient      1052/65536       29456/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/2436     ( 0.0%) 
+pakfile               [variable]      253308/0        ( 0.0%) 
+physics               [variable]       28428/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 788
+Writing c:\jogos\xblah\content\half-life 2\ol\mapsrc\homes.bsp
+1 second elapsed
